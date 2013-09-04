@@ -18,7 +18,7 @@ body{
 }
 
 .color-gray-deep{
-	color: #58585A ;
+	color: #58585A;
 }
 
 .color-gray{
@@ -241,6 +241,7 @@ body{
 	height: auto;
 	float: left;
 	padding-bottom: 36px;
+	background: #F7F7F9;
 }
 .content-container{
 	width: 960px;
@@ -275,4 +276,103 @@ body{
 	font-weight: 400;
 	height: 40px;
 	line-height: 40px;
+}
+
+/* 公告部分 */
+.news-icon{
+	width: 71px;
+	height: 31px;
+	padding-right: 889px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.comment-base{
+	width: 960px;
+	height: auto;
+	float: left;
+}
+.comment-user{
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+	float: left;
+}
+
+.comment-user img{
+	margin-top: 10px;
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
+	float: left;
+	border: #9d3b28 2px solid;
+}
+
+.comment-user span{
+	height: 20px;
+	line-height: 20px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.comment-content{
+	width: 760px;
+	height: auto;
+	float: left;
+}
+
+.comment-textarea{
+	width: 730px;
+	min-height: 100px;
+	float: left;
+	background: #e6e7e8;
+	border: #87898C 1px solid;
+	line-height: 20px;
+	font-size: 14px;
+	z-index: -1000;
+}
+
+.comment-tran{
+	width: 11px;
+	height: 34px;
+	float: left;
+	margin-left: -9px;
+	z-index: 1000;
+}
+
+
+.news-show-more{
+	width: 100px;
+	height: auto;
+	float: left;
+}
+
+.news-show-more a img{
+	width: 19px;
+	height: 19px;
+	border: 0px;
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
+.news-show-more span{
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	text-align: center;
+}
+
+
+/* 图表相关 */
+.chart-base{
+	width: 100%;
+	float: left;
+	padding-top: 36px;
+	padding-bottom: 36px;
 }
