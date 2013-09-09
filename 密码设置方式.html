@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>登录</title>
+<title>密码设置方式</title>
 <link href="css/bitwin.css" rel="stylesheet" type="text/css" />
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
@@ -41,26 +41,25 @@
 
 <div class="devise-content">
 	<div class="devise-welcome">
-		<span>Hello!欢迎回来，请先登入</span>
+		<span>选择其中一种方式重设您的密码</span>
 	</div>
 
-	<div class="login-input">
-		<input type="text" placeholder="注册邮箱" class="devise-mail" />
-		<a href="#">还没注册？</a>
+	<div class="logup-input margin-top-50">
+		<select id="select" class="devise-select" style="margin-right:20px;">
+		 		<option>通过注册邮箱</option>
+		 		<option>通过手机</option>
+		 		<option>通过安全提示问题</option>
+		</select>
 	</div>
 
-	<div class="login-input" >
-		<input type="password" placeholder="登录密码" class="devise-key" />
-		<a href="#">忘记密码？</a>
+
+	<div class="logup-input margin-top-50">
+		<input type="text" placeholder="注册邮箱" class="devise-input devise-mail" />
 	</div>
 
-	<div class="login-input">
-		<input type="text" placeholder="Google身份验证码" class="devise-key" />
-		<a href="#">手机丢了？</a>
-	</div>
 
-	<div style="padding-left:160px;width:407px;float:left;margin-top:80px;">
-		<button class="devise-button">登入<img src="images/icon/loginbutton.png" /></button>
+	<div class="logup-input margin-top-50">
+		<button class="devise-button">下一步<img src="images/icon/loginbutton.png" /></button>
 	</div>
 
 </div>

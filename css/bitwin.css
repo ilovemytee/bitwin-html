@@ -127,7 +127,7 @@ input{
 
 
 
-/* 停靠选项 */
+/* 临时选项 */
 .float-left{
 	float: left;
 }
@@ -140,7 +140,18 @@ input{
 	margin-top: 20px;
 }
 
-/* 特效 */
+.margin-top-middle{
+	margin-top: 36px !important;
+}
+
+.margin-top-50{
+	margin-top: 50px !important;
+}
+
+.margin-top-100{
+	margin-top: 100px !important;
+}
+
 .shadow-radius{
 	box-shadow: 0 1px 4px rgba(0,0,0,0.065);
 	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
@@ -150,6 +161,10 @@ input{
 	-moz-border-radius: 4px;
 }
 
+
+.auto-height{
+	height:auto !important;
+}
 
 
 
@@ -669,7 +684,7 @@ input{
 	padding-right: 30px;
 	border: #000 1px solid;
 	background:url(../images/exchange/btc.png) no-repeat;
-	background-position: right;
+	background-position: 130px 4px;
 	height: 30px;
 	font-size: 16px;
 }
@@ -680,7 +695,7 @@ input{
 	padding-right: 30px;
 	border: #000 1px solid;
 	background:url(../images/exchange/cny.png) no-repeat;
-	background-position: right;
+	background-position: 130px 6px;
 	height: 30px;
 	font-size: 16px;
 }
@@ -831,7 +846,6 @@ input{
 
 .login-input input{
 	width: 200px;
-	background-position: 10px 4px !important;
 	height: 30px !important;
 	float: left;
 	font-size: 16px;
@@ -885,17 +899,8 @@ input{
 	margin-top: 30px;
 }
 
+s
 
-.logup-input input{
-	width: 200px;
-	background-position: 10px 4px !important;
-	height: 30px !important;
-	float: left;
-	font-size: 16px;
-	border: #666 2px solid !important;
-	padding-left: 30px !important;
-
-}
 
 .logup-input a{
 	line-height: 36px;
@@ -904,6 +909,100 @@ input{
 	margin-left: 36px;
 	font-family: "微软雅黑";
 }
+
+
+.devise-tittle{
+	height: 40px;
+	line-height: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	font-weight: 100;
+	width: 100%;
+}
+
+.devise-tip{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	font-size: 18px;
+	font-weight: 100;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.devise-tip a{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.devise-tip a:hover{
+	text-decoration: none;
+}
+
+.devise-select{
+	width: 240px;
+	background-position: 10px 4px !important;
+	height: 40px !important;
+	float: left;
+	font-size: 16px;
+	border: #666 2px solid !important;
+	font-family: "微软雅黑";
+	background: #F7F7F9;
+}
+
+.devise-input{
+	width: 200px;
+	background-position: 10px 4px !important;
+	height: 30px !important;
+	float: left;
+	font-size: 16px;
+	border: #666 2px solid !important;
+	padding-left: 30px !important;
+	background: #F7F7F9;
+}
+
+.devise-question{
+	margin: 0px;
+	padding: 0px;
+	width: 300px;
+	line-height: 20px;
+	font-size: 14px;
+	float: left;
+}
+
+
+.devise-mail{
+	background:url(../images/icon/ico-mail.png) no-repeat !important;
+	background-position:4px 12px !important;
+}
+
+.devise-name{
+	background:url(../images/icon/user-name.png) no-repeat !important; 
+	background-position:8px 10px !important;
+}
+
+.devise-iphone{
+	background:url(../images/icon/iphone.png) no-repeat !important;
+	background-position: 5px 4px !important;
+}
+
+.devise-sms{
+	background:url(../images/icon/sms.png) no-repeat !important;
+}
+
+.devise-lock{
+	background:url(../images/icon/lock.png) no-repeat !important; 
+	background-position:3px 6px !important;
+}
+
+.devise-key{
+	background:url(../images/icon/key.png) no-repeat !important;
+	background-position: 10px 4px !important;
+}
+
 
 /* end */
 
